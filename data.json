@@ -3,11 +3,11 @@
     {
       "name":"Blue Moon",
       "image": "https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/3/000/0d4/2f7/07a3d35.jpg",
-      "location":"Black Sheep"
+      "location":"Brewery"
     },
     {
       "name":"Shocktop",
-      "image": "https://media.licdn.com/mpr/mpr/shrink_100_100/AAEAAQAAAAAAAAIMAAAAJGExNTE4OWY4LWU4ODMtNDA2ZS1iNWI1LWNkYmIyOWMyMGQ5Zg.jpg",
-      "location":"Bout Time"
+      "image": "img/shocktop.png",
+      "location":"The Pub"
     }
 ]
