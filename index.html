@@ -78,7 +78,7 @@
      $.ajaxSetup({ cache: false });
      $('#search').keyup(function(){
       $('#result').html('');
-      $('#state').val('');
+      //$('#state').val('');
       var searchField = $('#search').val();
       var expression = new RegExp(searchField, "i");
       $.getJSON('data.json', function(data) {
@@ -89,7 +89,7 @@
         {
          $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
         }else{
-          $('#result').append('');
+          console.log($('#result'))
         }
        });//end key value
       });//end data function
