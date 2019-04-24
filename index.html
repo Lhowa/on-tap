@@ -76,7 +76,7 @@
     $(document).ready(function(){
      $.ajaxSetup({ cache: false });
      $('#search').keyup(function(){
-      $('#result').html('').css("background-color", "yellow");
+      $('#result').html('');
       $('#state').val('');
       var searchField = $('#search').val();
       var expression = new RegExp(searchField, "i");
@@ -87,6 +87,8 @@
         if (value.name.search(expression) != -1)
         {
          $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
+        }else{
+          $('#result').append('');
         }
        });//end key value
       });//end data function
