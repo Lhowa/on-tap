@@ -51,19 +51,17 @@
         <div class="container" id="hometext">
             <h1 class="h1 text-center" style="color:white">Have a favorite brew?<br></h1>
             <h2 class="h2 text-right" style="color:white">We'll help you find it.<br><br></h2>
-            <h3 class="h3 text-left" style="color:white">Coming Soon...<br></h3>
+            <div class="container" style="width:300px;">
+              <br /><br />
+              <div align="center">
+               <input type="text" name="search" id="search" placeholder="Search for a brew!" class="form-control" />
+              </div>
+              <ul class="list-group" id="result"></ul>
+              <br />
+             </div>
         </div>
     </div>
-    <br /><br />
-  <div class="container" style="width:300px;">
 
-   <br /><br />
-   <div align="center">
-    <input type="text" name="search" id="search" placeholder="Search for a brew!" class="form-control" />
-   </div>
-   <ul class="list-group" id="result"></ul>
-   <br />
-  </div>
 
     <script>
       $(document).ready(function(){
