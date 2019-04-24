@@ -30,6 +30,18 @@
         background:#7f7f7f;
         background:rgba(0,0,0,0.1);
     }
+
+    #result {
+    position: absolute;
+   cursor: pointer;
+   overflow-y: auto;
+   width: 300px;
+   box-sizing: border-box;
+   z-index: 1001;
+  }
+  .link-class:hover{
+   background-color:#f1f1f1;
+  }
     </style>
     <title>On-Tap</title>
   </head>
@@ -38,7 +50,14 @@
         <div class="container" id="hometext">
             <h1 class="h1 text-center" style="color:white">Have a favorite brew?<br></h1>
             <h2 class="h2 text-right" style="color:white">We'll help you find it.<br><br></h2>
-            <h3 class="h3 text-left" style="color:white">Coming Soon...<br></h3>
+
+            <div class="container" style="width:300px;">
+                <div align="center">
+                 <input type="text" name="search" id="search" placeholder="Search for a brew!" class="form-control" />
+                </div>
+                <ul class="list-group" id="result"></ul>
+                <br />
+               </div>
         </div>
     </div>
 
@@ -48,3 +67,29 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
+<script>
+    $(document).ready(function(){
+     $.ajaxSetup({ cache: false });
+     $('#search').keyup(function(){
+      $('#result').html('');
+      $('#state').val('');
+      var searchField = $('#search').val();
+      var expression = new RegExp(searchField, "i");
+      $.getJSON('data.json', function(data) {
+       $.each(data, function(key, value){
+        // if (value.name.search(expression) != -1 || value.location.search(expression) != -1)
+        if (value.name.search(expression) != -1)
+        {
+         $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
+        }
+       });   
+      });
+     });
+    
+    //  $('#result').on('click', 'li', function() {
+    //   var click_text = $(this).text().split('|');
+    //   $('#search').val($.trim(click_text[0]));
+    //   $("#result").html('');
+    //  });
+     });
+    </script>
