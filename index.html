@@ -60,9 +60,8 @@
                 <div align="center">
                   <button id="buttonsearch">Search</button>
                  <input type="text" name="search" id="search" placeholder="Search for a brew!" class="form-control" />
-                 <ul class="list-group" id="result"></ul>
                 </div>
-                
+                <ul class="list-group" id="result"></ul>
                 <br />
                </div>
         </div>
@@ -98,7 +97,7 @@
          $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
          }
          if ($(".backgroundimg").click(function(){
-          console.log("click")
+          $("ul").hide();
          }));
 
        });//end key value
