@@ -78,7 +78,7 @@
      $.ajaxSetup({ cache: false });
      $('#search').keyup(function(){
       $('#result').html('');
-      //$('#state').val('');
+      $('#state').val('');
       var searchField = $('#search').val();
       var expression = new RegExp(searchField, "i");
       $.getJSON('data.json', function(data) {
