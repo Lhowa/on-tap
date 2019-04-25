@@ -1,12 +1,12 @@
 
 [
     {
-      "name":"Blue Moon",
+      "name":" Blue Moon",
       "image": "img/bluemoon.png",
       "location":"Brewery"
     },
     {
-      "name":"Shocktop",
+      "name":" Shocktop",
       "image": "img/shocktop.png",
       "location":"The Pub"
     }
