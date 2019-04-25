@@ -85,7 +85,7 @@
        $.each(data, function(key, value){
         // if (value.name.search(expression) != -1 || value.location.search(expression) != -1)//Search using both beer and locataion
         
-        if (value.name.search(expression) != 0)
+        if (value.name.search(expression) > 0)
         {
          $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
          }//else{
