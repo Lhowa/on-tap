@@ -58,6 +58,7 @@
 
             <div class="container" style="width:300px;">
                 <div align="center">
+                  <button id="buttonsearch">Search</button>
                  <input type="text" name="search" id="search" placeholder="Search for a brew!" class="form-control" />
                 </div>
                 <ul class="list-group" id="result"></ul>
@@ -75,6 +76,10 @@
 </html>
 <script>
     $(document).ready(function(){
+      $("#search").hide();
+      $("#buttonsearch").click(function(){
+    $("#search").show();
+      });//end buttonsearch
      $.ajaxSetup({ cache: false });
      $('#search').keyup(function(){
       $('#result').html('');
