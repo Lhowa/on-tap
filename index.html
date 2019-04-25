@@ -99,6 +99,8 @@
        });//end key value
       });//end data function
      });//end search
-     $('#result').hide();
+     if (value.name.search(expression) ==0){
+      $('#result').hide();
+     }
      });//end ready
     </script>
