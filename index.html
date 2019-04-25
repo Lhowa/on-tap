@@ -78,12 +78,12 @@
      $.ajaxSetup({ cache: false });
      $('#search').keyup(function(){
       $('#result').html('');
-      $('#state').val('');
+      //$('#state').val('');
       var searchField = $('#search').val();
       var expression = new RegExp(searchField, "i");
       $.getJSON('data.json', function(data) {
        $.each(data, function(key, value){
-         if (value.name.search(expression) != -1 || value.location.search(expression) != -1)//Search using both beer and locataion
+        // if (value.name.search(expression) != -1 || value.location.search(expression) != -1)//Search using both beer and locataion
 
         if (value.name.search(expression) != -1)
         {
