@@ -95,13 +95,11 @@
         if (value.name.search(expression) != -1)
         {
          $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
+        }else{
+          $('#result').append('');
         }
        });//end key value
       });//end data function
      });//end search
-     if(search==""){
-        $('#result').hide();   //to empty the result list
-              //return is to abort the operation
-        }
      });//end ready
     </script>
