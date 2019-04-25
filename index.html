@@ -96,11 +96,11 @@
         {
          $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
         }
-        if(search==""){
+       });//end key value
+       if(search==""){
         $('#result').html("");   //to empty the result list
         return;                  //return is to abort the operation
         }
-       });//end key value
       });//end data function
      });//end search
      });//end ready
