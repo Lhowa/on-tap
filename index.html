@@ -34,6 +34,7 @@
     }
 
     #result {
+    background:rgba(0,0,0,0.1);
     position: absolute;
    overflow-y: auto;
    width: 300px;
@@ -59,7 +60,6 @@
 
             <div class="container" style="width:300px;">
                 <div align="center">
-                  <!-- <button id="buttonsearch">Search</button> -->
                  <input type="text" name="search" id="search" placeholder="Search for a brew!" class="form-control" />
                  <ul class="list-group" id="result"></ul>
                 </div>
@@ -69,8 +69,6 @@
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-
-    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
@@ -78,11 +76,6 @@
 <script>
 
     $(document).ready(function(){
-      // $("#search").hide();
-      // $("#buttonsearch").click(function(){
-      // $("#search").show();
-      // $("#buttonsearch").hide();
-      // });//end buttonsearch
      $.ajaxSetup({ cache: false });
      $('#search').keyup(function(){
       var searchField = $('#search').val()
@@ -92,15 +85,15 @@
       var expression = new RegExp(searchField, "i");
       $.getJSON('data.json', function(data) {
        $.each(data, function(key, value){
-        // if (value.name.search(expression) != -1 || value.location.search(expression) != -1)//Search using both beer and locataion
+        // if (value.name.search(expression) != -1 || value.location.search(expression) != -1)//Search using both beer and location
         if (value.name.search(expression) != -1)
         {
          $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
         }
         if(searchField==""){
-    $('#result').html("");   //to empty the result list
-    return;                  //return is to abort the operation
-}
+        $('#result').html("");   //empties result list
+        return;                  //return to abort the previous empty call
+        }
        });//end key value
       });//end data function
      });//end search
