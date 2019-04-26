@@ -11,7 +11,7 @@ $(document).ready(function(){
        // if (value.name.search(expression) != -1 || value.location.search(expression) != -1)//Search using both beer and location
        if (value.name.search(expression) != -1)
        {
-        $('#result').append('<li class="list-group-item link-class"><div style=“background-image: url('+value.image+')"class="img-thumbnail" <div/> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
+        $('#result').append('<li class="list-group-item link-class"><div style=“background-image: url(+value.image+)"class="img-thumbnail" <div/> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
        }
        if(searchField==""){
        $('#result').html("");   //empties result list
