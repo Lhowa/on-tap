@@ -11,48 +11,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
-    <style>
-    html,body {
-        height: 100%;
-        font-family: 'Oswald', sans-serif;
-    }
-    .backgroundimg{
-        /* The image used */
-        background-image: url("img/home.jpg");
-
-        /* Full height */
-        height: 100%; 
-
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    #hometext{
-        background:#7f7f7f;
-        background:rgba(0,0,0,0.1);
-    }
-
-    #result {
-    position: absolute;
-   overflow-y: auto;
-   width: 300px;
-   box-sizing: border-box;
-   z-index: 1;
-  }
-  ul{
-    max-height: 400px;
-    overflow-y: scroll;
-  }
-  #search{
-    background:rgba(0,0,0,0.1);
-    color: white;
-    width: 300px;
-  }
-  /* .link-class:hover{
-   background-color:#f1f1f1;
-  } */
-    </style>
+    <link rel="stylesheet" href="style.css">
     <title>On-Tap</title>
   </head>
   <body>
@@ -76,30 +35,5 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
 </html>
-<script>
-
-    $(document).ready(function(){
-     $.ajaxSetup({ cache: false });
-     $('#search').keyup(function(){
-      var searchField = $('#search').val()
-      $('#result').html('');
-      //$('#state').val('');
-      var searchField = $('#search').val();
-      var expression = new RegExp(searchField, "i");
-      $.getJSON('data.json', function(data) {
-       $.each(data, function(key, value){
-        // if (value.name.search(expression) != -1 || value.location.search(expression) != -1)//Search using both beer and location
-        if (value.name.search(expression) != -1)
-        {
-         $('#result').append('<li class="list-group-item link-class"><img src="'+value.image+'" height="40" width="40" class="img-thumbnail" /> '+value.name+' | <span class="text-muted">'+value.location+'</span></li>');
-        }
-        if(searchField==""){
-        $('#result').html("");   //empties result list
-        return;                  //return to abort the previous empty call
-        }
-       });//end key value
-      });//end data function
-     });//end search
-     });//end ready
-    </script>
+<script src="content.js"></script>
     
