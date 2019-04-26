@@ -166,6 +166,62 @@
     "name": "Alt Bier Dusseldorfer",
     "image": "img/bohemianbrewing.png",
     "location": "Bohemian Brewery"
+  },
+
+  {
+    "name": "801 Pilsner",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "Lime Pilsner",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "Crisp Apple Ale",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "Golden Spike Hefeweizen",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "Piggy Back Peach IPA",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "Trader Session IPA",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "Cutthroat Pale Ale",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "Wyld Simcoe Session Ale",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "Baba Black Lager",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "Hoodoo Kolsch-Style Ale",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
+  },
+  {
+    "name": "RS Ale IPA",
+    "image": "img/uintabrewing.png",
+    "location": "Uinta Brewhouse Pub"
   }
   
 ]
