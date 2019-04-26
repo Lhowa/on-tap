@@ -1,13 +1,38 @@
 
 [
     {
-      "name":"Blue Moon",
-      "image": "img/bluemoon.png",
-      "location":"Brewery"
+      "name":"RiNo Juicy American Pale Ale",
+      "image": "img/rhinojuicy.jpeg",
+      "location":"Epic Brewing"
     },
     {
-      "name":"Shocktop",
-      "image": "img/shocktop.png",
-      "location":"The Pub"
+      "name":"Lupulin Burst - New England IPA",
+      "image": "img/newengland.jpeg",
+      "location":"Epic Brewing"
+    },
+    {
+      "name":"Brainless Passion",
+      "image": "img/brainlesspassion.jpeg",
+      "location":"Epic Brewing"
+    },
+    {
+      "name":"Oak & Orchard",
+      "image": "img/oakandorchard.jpeg",
+      "location":"Epic Brewing"
+    },
+    {
+      "name":"Big Bad Baptist",
+      "image": "img/bigbadbaptist.jpeg",
+      "location":"Epic Brewing"
+    },
+    {
+      "name":"Big Bad Baptista",
+      "image": "img/bigbadbaptista.jpeg",
+      "location":"Epic Brewing"
+    },
+    {
+      "name":"Coffee Cream Ale",
+      "image": "img/epicbrewing.jpeg",
+      "location":"Epic Brewing"
     }
 ]
