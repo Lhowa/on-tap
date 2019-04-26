@@ -130,5 +130,42 @@
     "name": "Polygamy Porter (Wasatch)",
     "image": "img/wasatchbrewing.png",
     "location": "Squatters Brewery"
+  },
+
+  {
+    "name": "1842 Pilsner Czech Lager",
+    "image": "img/bohemianbrewing.png",
+    "location": "Bohemian Brewery"
+  },
+  {
+    "name": "1841 Viennese Amber lager",
+    "image": "img/bohemianbrewing.png",
+    "location": "Bohemian Brewery"
+  },
+  {
+    "name": "Cherny Bock Schwarzbier",
+    "image": "img/bohemianbrewing.png",
+    "location": "Bohemian Brewery"
+  },
+  {
+    "name": "Bavarian Weissbier",
+    "image": "img/bohemianbrewing.png",
+    "location": "Bohemian Brewery"
+  },
+  {
+    "name": "Noble Hefeweizen",
+    "image": "img/bohemianbrewing.png",
+    "location": "Bohemian Brewery"
+  },
+  {
+    "name": "Dortmunder Export Lager",
+    "image": "img/bohemianbrewing.png",
+    "location": "Bohemian Brewery"
+  },
+  {
+    "name": "Alt Bier Dusseldorfer",
+    "image": "img/bohemianbrewing.png",
+    "location": "Bohemian Brewery"
   }
+  
 ]
