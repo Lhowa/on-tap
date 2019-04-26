@@ -27,7 +27,7 @@ box-sizing: border-box;
 z-index: 1;
 }
 ul{
-max-height: 40vh;
+max-height: 50vh;
 overflow-y: scroll;
 }
 #search{
