@@ -1,135 +1,134 @@
-
 [
-    {
-      "name":"RiNo Juicy American Pale Ale",
-      "image": "img/epicbrewing.jpeg",
-      "location":"Epic Brewing"
-    },
-    {
-      "name":"Lupulin Burst - New England IPA",
-      "image": "img/epicbrewing.jpeg",
-      "location":"Epic Brewing"
-    },
-    {
-      "name":"Brainless Passion",
-      "image": "img/epicbrewing.jpeg",
-      "location":"Epic Brewing"
-    },
-    {
-      "name":"Oak & Orchard",
-      "image": "img/epicbrewing.jpeg",
-      "location":"Epic Brewing"
-    },
-    {
-      "name":"Big Bad Baptist",
-      "image": "img/epicbrewing.jpeg",
-      "location":"Epic Brewing"
-    },
-    {
-      "name":"Big Bad Baptista",
-      "image": "img/epicbrewing.jpeg",
-      "location":"Epic Brewing"
-    },
-    {
-      "name":"Coffee Cream Ale",
-      "image": "img/epicbrewing.jpeg",
-      "location":"Epic Brewing"
-    },
+  {
+    "name": "RiNo Juicy American Pale Ale",
+    "image": "img/epicbrewing.jpeg",
+    "location": "Epic Brewing"
+  },
+  {
+    "name": "Lupulin Burst - New England IPA",
+    "image": "img/epicbrewing.jpeg",
+    "location": "Epic Brewing"
+  },
+  {
+    "name": "Brainless Passion",
+    "image": "img/epicbrewing.jpeg",
+    "location": "Epic Brewing"
+  },
+  {
+    "name": "Oak & Orchard",
+    "image": "img/epicbrewing.jpeg",
+    "location": "Epic Brewing"
+  },
+  {
+    "name": "Big Bad Baptist",
+    "image": "img/epicbrewing.jpeg",
+    "location": "Epic Brewing"
+  },
+  {
+    "name": "Big Bad Baptista",
+    "image": "img/epicbrewing.jpeg",
+    "location": "Epic Brewing"
+  },
+  {
+    "name": "Coffee Cream Ale",
+    "image": "img/epicbrewing.jpeg",
+    "location": "Epic Brewing"
+  },
 
-    {
-      "name":"1st Amendment Lager",
-      "image": "img/wasatchbrewing.png",
-      "location":"Wasatch Brewery"
-    },
-    {
-      "name":"Wasatch Hefeweizen",
-      "image": "img/wasatchbrewing.png",
-      "location":"Wasatch Brewery"
-    },
-    {
-      "name":"Apricot Hefeweizen",
-      "image": "img/wasatchbrewing.png",
-      "location":"Wasatch Brewery"
-    },
-    {
-      "name":"Snowbird Session IPA",
-      "image": "img/wasatchbrewing.png",
-      "location":"Wasatch Brewery"
-    },
-    {
-      "name":"Snap Down IPL",
-      "image": "img/wasatchbrewing.png",
-      "location":"Wasatch Brewery"
-    },
-    {
-      "name":"Jalepeno Cream Ale",
-      "image": "img/wasatchbrewing.png",
-      "location":"Wasatch Brewery"
-    },
-    {
-      "name":"Evolution Amber Ale",
-      "image": "img/wasatchbrewing.png",
-      "location":"Wasatch Brewery"
-    },
-    {
-      "name":"Polygamy Porter",
-      "image": "img/wasatchbrewing.png",
-      "location":"Wasatch Brewery"
-    },
-    {
-      "name":"Full Suspension Pale Ale (Squatters)",
-      "image": "img/squattersbrewing.png",
-      "location":"Wasatch Brewery"
-    },
+  {
+    "name": "1st Amendment Lager",
+    "image": "img/wasatchbrewing.png",
+    "location": "Wasatch Brewery"
+  },
+  {
+    "name": "Wasatch Hefeweizen",
+    "image": "img/wasatchbrewing.png",
+    "location": "Wasatch Brewery"
+  },
+  {
+    "name": "Apricot Hefeweizen",
+    "image": "img/wasatchbrewing.png",
+    "location": "Wasatch Brewery"
+  },
+  {
+    "name": "Snowbird Session IPA",
+    "image": "img/wasatchbrewing.png",
+    "location": "Wasatch Brewery"
+  },
+  {
+    "name": "Snap Down IPL",
+    "image": "img/wasatchbrewing.png",
+    "location": "Wasatch Brewery"
+  },
+  {
+    "name": "Jalepeno Cream Ale",
+    "image": "img/wasatchbrewing.png",
+    "location": "Wasatch Brewery"
+  },
+  {
+    "name": "Evolution Amber Ale",
+    "image": "img/wasatchbrewing.png",
+    "location": "Wasatch Brewery"
+  },
+  {
+    "name": "Polygamy Porter",
+    "image": "img/wasatchbrewing.png",
+    "location": "Wasatch Brewery"
+  },
+  {
+    "name": "Full Suspension Pale Ale (Squatters)",
+    "image": "img/squattersbrewing.png",
+    "location": "Wasatch Brewery"
+  },
 
-    {
-      "name":"American Wheat Hefeweizen",
-      "image": "img/squattersbrewing.png",
-      "location":"Squatters Brewery"
-    },
-    {
-      "name":"Chasing Tail Golden Ale",
-      "image": "img/squattersbrewing.png",
-      "location":"Squatters Brewery"
-    },
-    {
-      "name":"Provo Girl Pilsner",
-      "image": "img/squattersbrewing.png",
-      "location":"Squatters Brewery"
-    },
-    {
-      "name":"Full Suspension Pale Ale",
-      "image": "img/squattersbrewing.png",
-      "location":"Squatters Brewery"
-    },
-    {
-      "name":"Emigration Amber Ale",
-      "image": "img/squattersbrewing.png",
-      "location":"Squatters Brewery"
-    },
-    {
-      "name":"Captain Bastard's Oatmeal Stout",
-      "image": "img/squattersbrewing.png",
-      "location":"Squatters Brewery"
-    },
-    {
-      "name":"Coffee Cream Ale",
-      "image": "img/squattersbrewing.png",
-      "location":"Squatters Brewery"
-    },
-    {
-      "name":"Juicy IPA",
-      "image": "img/squattersbrewing.png",
-      "location":"Squatters Brewery"
-    },
-    {
-      "name":"Apricot Hefeweizen (Wasatch)",
-      "image": "img/wasatchbrewing.png",
-      "location":"Squatters Brewery"
-    },
-    {
-      "name":"Polygamy Porter (Wasatch)",
-      "image": "img/wasatchbrewing.png",
-      "location":"Squatters Brewery"
-    }
+  {
+    "name": "American Wheat Hefeweizen",
+    "image": "img/squattersbrewing.png",
+    "location": "Squatters Brewery"
+  },
+  {
+    "name": "Chasing Tail Golden Ale",
+    "image": "img/squattersbrewing.png",
+    "location": "Squatters Brewery"
+  },
+  {
+    "name": "Provo Girl Pilsner",
+    "image": "img/squattersbrewing.png",
+    "location": "Squatters Brewery"
+  },
+  {
+    "name": "Full Suspension Pale Ale",
+    "image": "img/squattersbrewing.png",
+    "location": "Squatters Brewery"
+  },
+  {
+    "name": "Emigration Amber Ale",
+    "image": "img/squattersbrewing.png",
+    "location": "Squatters Brewery"
+  },
+  {
+    "name": "Captain Bastard's Oatmeal Stout",
+    "image": "img/squattersbrewing.png",
+    "location": "Squatters Brewery"
+  },
+  {
+    "name": "Coffee Cream Ale",
+    "image": "img/squattersbrewing.png",
+    "location": "Squatters Brewery"
+  },
+  {
+    "name": "Juicy IPA",
+    "image": "img/squattersbrewing.png",
+    "location": "Squatters Brewery"
+  },
+  {
+    "name": "Apricot Hefeweizen (Wasatch)",
+    "image": "img/wasatchbrewing.png",
+    "location": "Squatters Brewery"
+  },
+  {
+    "name": "Polygamy Porter (Wasatch)",
+    "image": "img/wasatchbrewing.png",
+    "location": "Squatters Brewery"
+  }
 ]

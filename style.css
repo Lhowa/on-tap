@@ -1,45 +1,46 @@
-html,body {
-    height: 100%;
-    font-family: 'Oswald', sans-serif;
+html,
+body {
+  height: 100%;
+  font-family: "Oswald", sans-serif;
 }
-.backgroundimg{
-    /* The image used */
-    background-image: url("img/home.jpg");
+.backgroundimg {
+  /* The image used */
+  background-image: url("img/home.jpg");
 
-    /* Full height */
-    height: 100%; 
+  /* Full height */
+  height: 100%;
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-#hometext{
-    background:#7f7f7f;
-    background:rgba(0,0,0,0.1);
+#hometext {
+  background: #7f7f7f;
+  background: rgba(0, 0, 0, 0.1);
 }
 
 #result {
-position: absolute;
-overflow-y: auto;
-width: 300px;
-box-sizing: border-box;
-z-index: 1;
+  position: absolute;
+  overflow-y: auto;
+  width: 300px;
+  box-sizing: border-box;
+  z-index: 1;
 }
-ul{
-max-height: 50vh;
-overflow-y: scroll;
+ul {
+  max-height: 50vh;
+  overflow-y: scroll;
 }
-#search{
-background:rgba(0,0,0,0.1);
-color: white;
-width: 300px;
+#search {
+  background: rgba(0, 0, 0, 0.1);
+  color: white;
+  width: 300px;
 }
 /* .link-class:hover{
 background-color:#f1f1f1;
 } */
-.img-thumbnail{
-height:40px;
-width:auto;
-float: left;
+.img-thumbnail {
+  height: 40px;
+  width: auto;
+  float: left;
 }
