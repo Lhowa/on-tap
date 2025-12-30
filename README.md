@@ -8,13 +8,13 @@ npm install on-tap
 usage
 const onTap = require('on-tap')
 
-funcstion findBeer(name) {
+function findBeer(name) {
   return onTap.search(name).results[0]
 }
 
 async function findBeer(name) {
   try {
-    const result = await onTap.search(name);
+    const result = awaiting onTap.search(name);
     return result.results[0];
   } catch (error) {
     console.error('Search failed:', error);
