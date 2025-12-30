@@ -12,9 +12,13 @@ function findBeer(name) {
   return onTap.search(name).results[0]
 }
 
-async function getBars() {
-  const response = await fetch('http://api.example.com/bars')
-  return response.json()
+async function findBeer(name) {
+  try {
+    const result = await onTap.search(name);
+    return result.results[0];
+  } catch (error) {
+    console.error('Search failed:', error);
+  }
 }
 Features
 - Find beers
