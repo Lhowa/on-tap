@@ -8,7 +8,7 @@ npm install on-tap
 usage
 const onTap = require('on-tap')
 
-function findBeer(name) {
+funcstion findBeer(name) {
   return onTap.search(name).results[0]
 }
 
