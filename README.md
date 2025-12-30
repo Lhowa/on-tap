@@ -31,4 +31,4 @@ TODO
 Contact
 Email me at: admin@test.com
 Licens
-MI
+MIT
