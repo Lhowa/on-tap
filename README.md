@@ -26,5 +26,5 @@ TODO
 - [ ] Add documentation
 Contact
 Email me at: admin@test.com
-License
+Licens
 MI
